@@ -1,9 +1,123 @@
 <body>
     <div id="content">
-    max-width: 1600 px;
+    max-width = 1600 px;
     margin: 0 auto;
-        <header>
-    . . .
-        </footer>
-    </div>
-</body>
+    background-color: lightblue;
+    .hero.png { 
+        display: block;
+        margin: 0 auto;
+      }
+    <header>
+    <div>
+    nav a{text-align: center;}
+
+#hero-msg h1,
+#hero-msg h4 {
+    text-align: center;
+}
+    .button-box {text-align: center;}
+    main section {text-align: center;}
+    <section class="rapids-card">
+    <img class="card-img" src="images/rapids.jpg" alt="rafting boat">
+    <img class="icon" src="images/oars.png" alt="oars icon">
+    <h2>Rapids</h2>
+</section>
+<div id="background"></div> 
+<img class="mountains" src="images/mountains.jpg" alt="Misty mountains">
+<section class="msg">
+    <h2>More Than Just The Thrill</h2>
+    <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way more than just the rapids. It's a great way to get away from it all and relax amongst all the beauty of the great outdoors. </p>
+    <a class='join' href="rivers.html">Join Us</a>
+</section>
+<div>
+
+
+
+
+
+
+
+
+
+<div>
+
+      
+body {
+    background-color: #fcfbfb; 
+}
+header {
+    background-color: rgba(21, 190, 212, 0.7);
+}
+nav a:hover {
+    background-color: white;
+}
+.book, .join {
+    background-color: #333;
+}
+.book:hover, .join:hover {
+    background-color: #555;
+}
+#background {
+    background-color: #f7f7f7;
+}
+.msg {
+    background-color: #ffcc00;
+}
+footer {
+    background-color: #222;
+    color: #fff;
+}
+nav a:hover {
+    background-color: white;
+  }
+  
+  .home-title {
+    background-color: #ccc;
+  }
+  
+  h4 {
+    background-color: #ddd;
+  }
+  
+  .book, .join {
+    background-color: #333;
+  }
+  
+  .book:hover, .join:hover {
+    background-color: #555;
+  }
+  
+  .msg h2 {
+    background-color: #eee;
+  }
+  
+  .msg p {
+    background-color: #855353;
+  }
+  
+  footer {
+    background-color: #222;
+    color: #ecbbbb;
+  }
+  
+  footer a {
+    color: #6e6767;
+  }
+  
+  footer a:hover {
+    color: #be9c14;
+  }
+  .logo, .icon {
+    width: 80px;
+  }
+  nav a,
+  .book, .join,
+  footer a {
+  text-decoration: none;
+  }
+  footer p {
+    font-size: 1.2em;
+}    
+footer p a:hover {
+    text-decoration: underline;
+}    
