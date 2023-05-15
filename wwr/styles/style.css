@@ -1,8 +1,14 @@
 <body>
     <div id="content">
-    max-width = 1600 px;
-    margin: 0 auto;
-    background-color: lightblue;
+     max-width = 1600 px;
+     #content {margin: 0 auto;
+    background-color: lightblue;}
+    .button-box {text-align: center;}
+    main section {text-align: center;}
+    #hero-msg h1,
+#hero-msg h4 {
+    text-align: center;}
+    
     .hero.png { 
         display: block;
         margin: 0 auto;
@@ -23,6 +29,11 @@
     <h2>Rapids</h2>
 </section>
 <div id="background"></div> 
+<div> #background {
+  height: 725px;
+  background-color: rgba(21, 190, 212, 0.7);}
+  
+} <div>
 <img class="mountains" src="images/mountains.jpg" alt="Misty mountains">
 <section class="msg">
     <h2>More Than Just The Thrill</h2>
