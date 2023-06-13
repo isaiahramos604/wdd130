@@ -5,10 +5,9 @@
   }
   
   header, nav, main, footer {
-    border: none; /* Remove border */
-  margin-bottom: 0px;
-  max-width: 100%;
-  padding: 30px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    padding: 10px;
   }
   
   ul {
